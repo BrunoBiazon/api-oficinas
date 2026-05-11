@@ -1,0 +1,25 @@
+{
+  "name": "api-oficinas",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BrunoBiazon/api-oficinas#readme",
+  "bugs": {
+    "url": "https://github.com/BrunoBiazon/api-oficinas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoBiazon/api-oficinas.git"
+  },
+  "license": "ISC",
+  "author": "Bruno Biazon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2"
+  }
+}

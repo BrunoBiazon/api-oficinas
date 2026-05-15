@@ -26,6 +26,11 @@ app.use(
   require("./routes/tutores")
 );
 
+app.use(
+  "/temas",
+  require("./routes/temas")
+
+)
 app.listen(3000, () => {
   console.log(
     "Servidor rodando na porta 3000"

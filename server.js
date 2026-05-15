@@ -21,6 +21,11 @@ app.use(
   require("./routes/alunos")
 );
 
+app.use(
+  "/tutores",
+  require("./routes/tutores")
+);
+
 app.listen(3000, () => {
   console.log(
     "Servidor rodando na porta 3000"

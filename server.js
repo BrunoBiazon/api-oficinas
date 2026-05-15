@@ -29,8 +29,18 @@ app.use(
 app.use(
   "/temas",
   require("./routes/temas")
+);
 
-)
+app.use(
+  "/oficinas",
+  require("./routes/oficinas")
+);
+
+app.use(
+  "/turmas",
+  require("./routes/alunos")
+);
+
 app.listen(3000, () => {
   console.log(
     "Servidor rodando na porta 3000"
